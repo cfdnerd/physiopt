@@ -8,6 +8,7 @@ pip install pillow imageio imageio-ffmpeg tqdm easydict opencv-python-headless s
 pip install git+https://github.com/EasternJournalist/utils3d.git@9a4eb15e4021b67b12c460c7057d642626897ec8
 pip install xformers==0.0.27.post2 --index-url https://download.pytorch.org/whl/cu118
 MAX_JOBS=4 pip install flash-attn --no-build-isolation
+pip install "jupyter_client<8"
 pip install kaolin -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.4.0_cu118.html
 
 mkdir -p /tmp/extensions

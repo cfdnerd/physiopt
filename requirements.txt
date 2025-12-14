@@ -11,4 +11,5 @@ cupy
 -e .
 -f https://data.pyg.org/whl/torch-2.4.0+cu118.html
 torch-scatter
+jupyter_client<8
 
