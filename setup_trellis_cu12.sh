@@ -10,6 +10,7 @@ pip install git+https://github.com/EasternJournalist/utils3d.git@9a4eb15e4021b67
 pip install xformers==0.0.27.post2 --index-url https://download.pytorch.org/whl/cu121
 MAX_JOBS=4 pip install flash-attn --no-build-isolation
 pip install "jupyter_client<8.0.0"
+pip install tbb
 pip install kaolin -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.4.0_cu121.html
 
 # Clean up extensions directory to avoid 'already exists' errors
